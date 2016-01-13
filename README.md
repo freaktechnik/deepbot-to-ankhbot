@@ -1,4 +1,4 @@
-# DeepBot2Ankhbot
+# DeepBot2AnkhBot
 A small web app to convert the points of users from [DeepBot](http://deepbot.deep.sg)
 to a format that can be imported into [AnkhBot R2](http://marcinswierzowski.com/Code/AnkhBotR2).
 
