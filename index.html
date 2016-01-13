@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Migrate from DeepBot to AnkhBot</title>
+        <script type="application/javascript" src="script.js"></script>
+        <link rel="license" href="LICENSE">
+    </head>
+    <body>
+        <h1>DeepBot2AnkhBot Migration Helper</h1>
+        <p>This site outputs users and points in a format that can be imported to AnkhBot. Make sure DeepBot is running while using this tool. Enter your DeepBot's API key before pressing <samp>Generate</samp>. After that the site will load all users from DeepBot (the more users, the longer it takes) and finally output a list, which you can then copy and import into AnkhBot.</p>
+        <form id="go">
+            <label for="apikey">DeepBot API-Key (from the Master Settings)</label> <input type="text" id="apikey" placeholder="API-Key" required><br>
+            <button type="submit" id="submit">Generate</button>
+        </form>
+        <p hidden id="error">DeepBot is not running or the page was open too long without interaction. Start DeepBot and reload the page.</p>
+        <pre id="out">
+        </pre>
+    </body>
+</html>
